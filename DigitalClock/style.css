@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(pexels-pixabay-531880.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no repeat;
+
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+#clock{
+    font-size: 6.5rem;
+    color: black;
+    width: 100vw;
+    text-align: center;
+    backdrop-filter: blur(3px); 
+    
+}
