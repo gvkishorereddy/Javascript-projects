@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <input id="output" class="output" type="text" readonlys>
+        <div class="input">
+            <button class="buttons orange" onclick="appendToInput('+')">+</button>
+            <button class="buttons" onclick="appendToInput('7')">7</button>
+            <button class="buttons" onclick="appendToInput('8')">8</button>
+            <button class="buttons" onclick="appendToInput('9')">9</button>
+            <button class="buttons orange" onclick="appendToInput('-')">-</button>
+            <button class="buttons" onclick="appendToInput('4')">4</button>
+            <button class="buttons" onclick="appendToInput('5')">5</button>
+            <button class="buttons" onclick="appendToInput('6')">6</button>
+            <button class="buttons orange" onclick="appendToInput('*')">*</button>
+            <button class="buttons" onclick="appendToInput('1')">1</button>
+            <button class="buttons" onclick="appendToInput('2')">2</button>
+            <button class="buttons" onclick="appendToInput('3')">3</button>
+            <button class="buttons orange" onclick="appendToInput('/')">/</button>
+            <button class="buttons" onclick="appendToInput('0')">0</button>
+            <button class="buttons" onclick="appendToInput('.')">.</button>
+            <button class="buttons black" onclick="clearOutput()">C</button>
+            <button class="buttons blue" onclick="calculate()">=</button>
+        </div>
+    </div>
 
+    <script src="script.js"></script>
+</body>
+</html>
