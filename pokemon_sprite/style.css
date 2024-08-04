@@ -36,7 +36,8 @@ body {
 }
 
 #pokemonName::placeholder {
-    color: #ccc;
+    color: hsl(0, 6%, 45%); /* Change this to the desired color */
+    opacity: 1;   /* Ensure full opacity for the color */
 }
 
 button {
