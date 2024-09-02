@@ -1,0 +1,55 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  perspective: 600px;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 0px 15px ;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 6.9rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+  animation: roll 1s ease-in-out;
+  transform-style: preserve-3d;
+}
+
+
+
+
+
+button {
+  background-color:  #4ECCA3; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+button:hover{
+  background-color:  #71f3c8;
+  cursor: pointer;
+}
